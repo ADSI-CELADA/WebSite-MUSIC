@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body::-webkit-scrollbar {
+    width: 20px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #db0d4b;
+}
+
+.one {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+header h1 {
+    position: absolute;
+    font-size: 60px;
+}
+
+.imgHeader {
+    max-width: 100%;
+}
+
+/* -------------------------- */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text1 {
+    max-width: 100%;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 110px 0;
+}
+
+.imgT1 {
+    max-width: 100%;
+    min-width: 250px;
+}
+
+h2 {
+    margin: 10px;
+}
+
+p {
+    font-size: 16px;
+    margin: 10px 10px;
+}
+
+.rainbow {
+    background: linear-gradient(110deg, #fd7b88, #db0d4b);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+
+button,
+a {
+    margin: 20px 0;
+    border: none;
+    text-decoration: none;
+    background-color: rgb(255, 69, 69);
+    color: #fff;
+    padding: 15px 35px;
+    border-radius: 70px;
+}
+
+/* -------------------- */
+
+.end {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.imgEnd {
+    max-width: 100%;
+    min-width: 800px;
+}
+
+.content2 {
+    width: 450px;
+    position: absolute;
+    color: #fff;
+}
+
+/* -------------- */
+
+footer {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to right, #fd7b88, #db0d4b);
+    height: 70vh;
+}
+
+.list {
+    display: flex;
+    justify-content: space-around;
+    width: 900px;
+}
+
+li {
+    list-style: none;
+    color: #fff;
+    margin: 0 0 5px 0;
+}
+
+.mrg {
+    margin: 0 0 60px 0;
+}
+
+.akali{
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    margin: 0;  
+    background: linear-gradient(to right, #fd7b88, #db0d4b);
+    padding: 20px 0px 20px 40px;
+}
